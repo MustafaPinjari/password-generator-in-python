@@ -1,47 +1,49 @@
-# Digital Clock using Tkinter
+# Musuu - The PASSWORD GENERATOR
 
-This Python program creates a simple digital clock using the Tkinter library. The clock displays the current time in hours, minutes, and seconds.
-
-## Requirements
-
-- Python 3.x
-- Tkinter library (usually comes pre-installed with Python)
-
-## How to Run
-
-1. Clone this repository or download the `digital_clock.py` file.
-2. Navigate to the directory where `digital_clock.py` is located.
-3. Open a terminal or command prompt.
-4. Run the following command to execute the program:
-'''
-python digital_clock.py
-'''
-5. The digital clock window will appear, displaying the current time.
-6. The clock updates every 200 milliseconds to reflect the accurate time.
-
-## Example
-
-When you run the program, a window will open displaying the current time in hours, minutes, and seconds. The time will update every 200 milliseconds to reflect the accurate time.
-
-![Digital Clock Screenshot](clock_screenshot.png)
+Musuu is a simple password generator built using Tkinter, a graphical user interface toolkit in Python. It generates strong passwords with various combinations of uppercase letters, lowercase letters, digits, and punctuation characters.
 
 ## Features
 
-- Simple and minimalist digital clock interface.
-- Updates in real-time to display the current time.
-- Uses a bold font with customizable colors for visibility.
+- Generate strong and random passwords of varying lengths.
+- User-friendly interface with options to specify password length.
+- Copy generated passwords to the clipboard for easy use.
+- Stylish GUI design with a blue color theme.
 
-## Example
+## How to Run
 
-When you run the program, a window will open displaying the current time in hours, minutes, and seconds. The time will update every 200 milliseconds to reflect the accurate time.
+1. Make sure you have Python installed on your system.
+2. Copy the provided Python code into a new Python file (e.g., `password_generator.py`).
+3. Open a terminal or command prompt.
+4. Navigate to the directory where `password_generator.py` is located.
+5. Run the following command to execute the program:
+6. The Musuu Password Generator window will appear.
+
+## Usage
+
+1. Enter the desired password length using the Spinbox widget.
+2. Click on the "GENERATE PASSWORD" button to generate a random password.
+3. The generated password will be displayed in the Entry widget.
+4. Click on the "COPY TO CLIPBOARD" button to copy the password to your clipboard.
+
+## Dependencies
+
+- Python 3.x
+- Tkinter library (usually comes pre-installed with Python)
+- pyperclip library (install using `pip install pyperclip`)
+
+## Example Output
+
+![Musuu Password Generator](psg.png)
 
 ## Future Enhancements
 
-- Add options for customizing the clock's appearance (font size, colors, etc.).
-- Implement additional features such as a stopwatch or countdown timer.
-- Create a resizable and draggable clock window for better user experience.
+- Add options for customizing the character sets used in generating passwords.
+- Implement a strength meter to evaluate the strength of generated passwords.
+- Include a feature to save generated passwords securely.
 
-Feel free to modify and enhance this project according to your preferences or contribute to its development!
+Feel free to customize and enhance this password generator according to your needs or contribute to its development!
+
+---
 
 # 💫 About Me:
 
